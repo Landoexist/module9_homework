@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans';
+    
+}
+
+body {
+  background-color: #b0bac4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+    padding: 30px;
+}
+
+.btn{
+align-items: center;
+  background-color: #074482;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  padding: 0 40px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  margin: 10px 0;
+}
+
+.btn:hover,
+.btn:focus { 
+  background-color: #236ed0;
+  color: #ffffff;
+}
+
+.btn:active {
+  background: #052341;
+  color: rgb(255, 255, 255, .7);
+}
+
+.btn:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.input-field::-webkit-outer-spin-button,
+.input-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.input-field{
+  background-color: #deeeff;
+  border-radius: 10px;
+  border: 2px solid black;
+
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 480px;
+  min-height: 40px;
+  padding: 0 40px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.input-field:focus{
+  border: 2px solid black;
+  outline: none;
+}
+
+.output{
+    margin: 10px 0 5%;
+    padding: 10px 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: black;
+}

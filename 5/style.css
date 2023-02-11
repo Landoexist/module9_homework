@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Meeriweather;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.container__button {
+  background-color: #2c2c2c;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 50px;
+  min-width: 200px;
+  padding: 5px 30px;
+  transition: all 250ms;
+  margin: 25px;
+}
+
+.container__button:hover,
+.container__button:focus {
+  background-color: #343434;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.container__button:hover {
+  transform: translateY(-1px);
+}
+
+.container__button:active {
+  background-color: #9c9c9c;
+  box-shadow: rgba(139, 139, 139, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.container__button:disabled { 
+    cursor: not-allowed;
+    background: rgb(167, 167, 167);
+    color: rgb(255, 255, 255);
+}
+
+
+.container__input::-webkit-outer-spin-button,
+.container__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container__input{
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 50px;
+    min-width: 100px;
+    padding: 5px 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.container__input:focus{
+    border: 2px solid black;
+    outline: none;
+  }
+
+  .container__output{
+/*     visibility: hidden;
+    border: 2px solid black; */
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .container__output-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .container__output-image{
+    width: 200px;
+    height: auto;
+    padding-bottom: 10px;
+  }
